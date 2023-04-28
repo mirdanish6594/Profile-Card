@@ -1,0 +1,80 @@
+body {
+  background: url("file:///E:/STUDY%20%20MATERIAL/COMPUTER%20%20SCIENCE/Web-development%20UDEMY/FRONTEND%20MENTOR%20CHALLENGES/profile-card-component-main/images/bg-pattern-bottom.svg");
+  background-color: hsl(185, 75%, 39%);
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+.main {
+  border: 1px dark solid;
+  border-radius: 12px;
+  padding: 145px 0 145px 0;
+  text-align: center;
+  background-color: white;
+  width: 25%;
+  margin-top: 140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#card-top {
+  background: url("file:///E:/STUDY%20%20MATERIAL/COMPUTER%20%20SCIENCE/Web-development%20UDEMY/FRONTEND%20MENTOR%20CHALLENGES/profile-card-component-main/images/bg-pattern-card.svg");
+  height: 150px;
+  width: 100%;
+  margin-top: -145px;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+}
+
+.profile-pic {
+  background: url("images/image-victor.jpg");
+  height: 90px;
+  width: 90px;
+  border-radius: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -55px;
+  position: relative;
+  border: 5px white solid;
+  margin-bottom: 10px;
+}
+
+.information {
+
+}
+.name {
+  display: inline;
+  font-size: 18px;
+  font-weight: 700;
+  padding-right: 5px;
+}
+.age {
+  display: inline;
+  font-size: 18px;
+  color: grey;
+}
+.place {
+  color: grey;
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+.bottom {
+  margin-bottom: -150px;
+  padding: 20px 0 30px 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.numbers {
+  padding: 0 17px 0 17px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.data {
+  padding: 0 17px 0 17px;
+  font-size: 14px;
+  color: grey;
+}
+
+@media (max-width: 992px) {
+   .main {
+     width: 60%;
+   }
+}
