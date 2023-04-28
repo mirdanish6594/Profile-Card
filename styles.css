@@ -1,5 +1,5 @@
 body {
-  background: url("file:///E:/STUDY%20%20MATERIAL/COMPUTER%20%20SCIENCE/Web-development%20UDEMY/FRONTEND%20MENTOR%20CHALLENGES/profile-card-component-main/images/bg-pattern-bottom.svg");
+  background: url("images/bg-pattern-bottom.svg");
   background-color: hsl(185, 75%, 39%);
   font-family: 'Kumbh Sans', sans-serif;
 }
@@ -16,7 +16,7 @@ body {
   margin-right: auto;
 }
 #card-top {
-  background: url("file:///E:/STUDY%20%20MATERIAL/COMPUTER%20%20SCIENCE/Web-development%20UDEMY/FRONTEND%20MENTOR%20CHALLENGES/profile-card-component-main/images/bg-pattern-card.svg");
+  background: url("images/bg-pattern-card.svg");
   height: 150px;
   width: 100%;
   margin-top: -145px;
